@@ -6,7 +6,6 @@
 *
 * NOTES :
 *       #####
-*       CS 6313 Data Security Project
 * 
 * AUTHOR :    Brandon Pirtle        START DATE :    22 Nov 17
 *
