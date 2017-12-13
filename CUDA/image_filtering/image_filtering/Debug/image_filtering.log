@@ -1,0 +1,289 @@
+﻿Build started 12/13/2017 4:06:38 PM.
+     1>Project "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering\image_filtering.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering\kernel.cu 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Brandon\AppData\Local\Temp\tmpc4c20286a5e3499fad1e0393280cc942.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering\kernel.cu"
+         
+         C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering\kernel.cu" 
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(270): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(277): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(284): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(335): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(342): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(349): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(400): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(407): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(414): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(465): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(472): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(479): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(530): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(537): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(544): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(595): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(602): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(609): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(661): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(668): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(675): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(727): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(734): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(741): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(793): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(800): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(807): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(859): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(866): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(873): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(925): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(932): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(939): warning : transfer of control bypasses initialization of:
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(50007): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(15213): warning : integer operation result is out of range
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(15565): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(15565): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29334): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29645): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29711): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(29891): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(30095): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(37499): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(37985): warning : statement is unreachable
+     1>c:\users\brandon\desktop\github\showcase\cuda\image_filtering\image_filtering\CImg.h(50007): warning : statement is unreachable
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(270): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(277): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(284): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(335): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(342): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(349): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(400): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(407): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(414): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(465): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(472): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(479): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(530): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(537): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(544): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(595): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(602): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(609): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(661): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(668): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(675): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(727): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(734): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(741): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(793): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(800): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(807): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(859): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(866): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(873): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(925): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(932): warning : transfer of control bypasses initialization of:
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(939): warning : transfer of control bypasses initialization of:
+         kernel.cu
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(289) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(288) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(289) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(288) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(289) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(288) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(316) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(354) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(353) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(354) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(353) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(354) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(353) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(381) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(419) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(418) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(419) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(418) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(419) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(418) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(446) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(484) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(483) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(484) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(483) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(484) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(483) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(511) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(549) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(548) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(549) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(548) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(549) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(548) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(576) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(614) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(613) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(614) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(613) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(614) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(613) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(641) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(680) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(679) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(680) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(679) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(680) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(679) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(707) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(746) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(745) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(746) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(745) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(746) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(745) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(773) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(812) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(811) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(812) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(811) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(812) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(811) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(839) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(878) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(877) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(878) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(877) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(878) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(877) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(905) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971): warning C4533: initialization of 'grdDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(944) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+     1>C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971): warning C4533: initialization of 'blkDim' is skipped by 'goto Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(943) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(944) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(943) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(944) : see declaration of 'grdDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(943) : see declaration of 'blkDim'
+                 C:/Users/Brandon/Desktop/github/Showcase/CUDA/image_filtering/image_filtering/kernel.cu(971) : see declaration of 'Error'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\image_filtering.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\image_filtering.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\image_filtering.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         image_filtering.vcxproj -> C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\image_filtering.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Brandon\Desktop\github\Showcase\CUDA\image_filtering\image_filtering\image_filtering.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:28.72
